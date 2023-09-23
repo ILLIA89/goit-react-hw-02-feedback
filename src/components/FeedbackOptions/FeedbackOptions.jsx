@@ -8,6 +8,7 @@ export const FeedbackOptions = ({ options, onCountOptions }) => {
     <div className={css.button_div}>
       {options.map(option => (
         <button
+          key={option}
           type="button"
           className={clsx(css.btn, css[option])}
           onClick={() => {
