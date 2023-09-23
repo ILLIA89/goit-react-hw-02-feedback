@@ -6,9 +6,9 @@ export const Notification = ({ message }) => {
         padding: '12px 16px',
         fontSize: '30px',
         fontWeight: 700,
-        borderColor: 'rgb(189, 29, 56)',
+        // borderColor: 'rgb(189, 29, 56)',
         backgroundColor: 'white',
-        color: 'rgb(189, 29, 56)',
+        color: 'green',
       }}
     >
       {message}

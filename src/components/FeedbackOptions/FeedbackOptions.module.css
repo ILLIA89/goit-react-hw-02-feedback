@@ -10,7 +10,7 @@
 .bad {
   padding: 10px 25px;
   border: none;
-  background-color: rgb(42, 138, 179);
+  background-color: green;
   color: rgb(235, 226, 226);
   border-radius: 5px;
   font-size: 17px;
@@ -18,11 +18,11 @@
 }
 
 .good:hover {
-  background-color: rgb(252, 0, 0);
+  background-color: rgb(216, 118, 19);
 }
 
 .neutral:hover {
-  background-color: rgb(189, 167, 21);
+  background-color: rgb(216, 118, 19);
 }
 
 .bad:hover {
