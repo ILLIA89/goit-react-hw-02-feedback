@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './FeedbackOptions.module.css';
-
+// імпорт clsx  бібліотеки
 import clsx from 'clsx';
 
 export const FeedbackOptions = ({ options, onCountOptions }) => {
@@ -10,6 +10,7 @@ export const FeedbackOptions = ({ options, onCountOptions }) => {
         <button
           key={option}
           type="button"
+          // використання clsx  бібліотеки
           className={clsx(css.btn, css[option])}
           onClick={() => {
             onCountOptions(option);
